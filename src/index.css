@@ -1,0 +1,92 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* FONT FAMILY IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+  user-select: none;
+  font-family: "Outfit", "Sora", sans-serif;
+
+}
+
+
+
+body {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -9000; */
+
+}
+
+
+.dg.ac {
+  display: none;
+}
+
+/* Custom Button */
+
+/*--- custom-button ---*/
+.custom-button span {
+  color: rgb(28, 31, 30);
+  border: none;
+  transition: 0.2s;
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.custom-button span:hover {
+  background-color: transparent;
+  color: white;
+  border-color: 2px solid white;
+}
+
+/* Custom Button End */
+
+/* TITLE TEXT START */
+/* Base styles for all screen sizes */
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-block {
+  display: block;
+}
+
+.text-block,
+img {
+  position: relative;
+}
+
+#root {
+  color: white;
+  background-color: blue;
+}
+
+.custom-button-buy {
+  background-color: #82b440;
+  transition: all 0.03s linear;
+}
+
+.custom-button-buy:hover {
+  background-color: #82b440;
+}
+
+.custom-button-buy:active {
+  box-shadow: 0 0 2px #82b440;
+  transform: translatey(-2px);
+}
