@@ -74,7 +74,7 @@ function App() {
 
         {/* LOGO AND RATING START */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-items-center items-center w-full relative z-10">
-          <div className="flex flex-col lg:flex-row items-center mt-4">
+          <div className="flex flex-col lg:flex-row items-center">
             <img className="w-24 lg:w-32 z-10" src={logo1} alt="Logo 1" />
             <div>
               <img className="z-10 ml-2" src={ratings} alt="Ratings" />
@@ -114,7 +114,7 @@ function App() {
                 Turn Your Cursor Into A Colorful Magic Wand & Charm Your
                 Visitors
               </div>
-              <div className="text-gray-300 lg:mt-32 mt-28 ml-4 relative z-10 ">
+              <div className="text-gray-300 lg:mt-[11rem] mt-28 ml-4 relative z-10 ">
                 <p>
                   Motion Art for Elementor is a groundbreaking plugin that
                   empowers you to effortlessly infuse your website with visually
@@ -126,7 +126,7 @@ function App() {
 
             {/* PURCHASE BUTTON START */}
             <div className="flex justify-center lg:justify-start m-12 lg:ml-40 relative">
-              <button className="h-16 p-4 rounded-2xl bg-gradient-to-r from-[#F87516] to-[#5E11FF] flex justify-center items-center lg:justify-start lg:items-start">
+              <button className="h-16 p-4 rounded-2xl bg-gradient-to-r from-[#F87516] to-[#5E11FF] flex justify-center items-center lg:justify-start lg:items-start lg:ml-4">
                 <span className="text-2xl">
                   <p>Purchase From Envato</p>
                 </span>
@@ -238,7 +238,7 @@ function App() {
           {/* FEATURE-2 END */}
 
           {/* FEATURE-3 START */}
-          <div className="bg-[#120b24] h-auto  mx-4 lg:mx-4 rounded-2xl shadow-md p-2text-start relative mt-4 p-4  ">
+          <div className="bg-[#120b24] h-auto  mx-4  lg:mx-4 rounded-2xl shadow-md p-2text-start relative mt-4 p-4  ">
             <img className="" src={logo6} alt="" />
             <div>
               <p className="px-4 pb-4 text-xl">User Friendly Interface</p>
@@ -269,6 +269,7 @@ function App() {
               <p>© 2023 Copywrite. All rights reserved by QodeMatrix</p>
             </div>
           </footer>
+
           {/* FOOTER END */}
         </section>
       </section>
